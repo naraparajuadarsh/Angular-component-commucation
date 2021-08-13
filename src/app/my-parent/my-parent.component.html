@@ -1,0 +1,11 @@
+<div class="parent">
+    <p>my-parent works!</p>
+    <input type="number" [(ngModel)]="myPhone">
+    <p>{{name}}</p>
+    <div class="child2">
+        <app-my-child [phone]="myPhone" (parentFunction)="parentFunction($event)"></app-my-child>
+    </div>
+
+</div>
+    
+

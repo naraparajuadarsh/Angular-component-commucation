@@ -1,0 +1,13 @@
+.parent{
+    background-color: brown;
+    text-align: center;
+    font-size: 50px;
+    width: 70%;
+}
+.child2{
+ width: 70%;
+    /* margin: 40px;
+    margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+}
